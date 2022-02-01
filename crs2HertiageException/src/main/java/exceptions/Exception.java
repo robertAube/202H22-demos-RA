@@ -1,5 +1,21 @@
 package exceptions;
 
+
+/**
+ * Diagramme partiel de la hiérarchie des Exception en Java:
+ * Object
+ * └── Throwable
+ *     ├── Exception
+ *     │   ├── RuntimeException (N'ont pas besoin d'être dans des blocs try/catch)
+ *     │   │   ├── ArithmeticException
+ *     │   │   ├── IllegalArgumentException
+ *     │   │   ├── NullPointerException
+ *     │   │   └── IndexOutOfBoundsException
+ *     │   │       └── ArrayIndexOutOfBoundsException
+ *     │   └── IOException
+ *     │       └── FileNotFoundException
+ *     └── Error
+ */
 public class Exception {
 
     public Exception() {
