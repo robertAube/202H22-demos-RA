@@ -3,20 +3,21 @@ package exceptions;
 import Utilitaire.Util;
 
 /**
- * Diagramme partiel de la hiérarchie des Exception en Java:
+ * La hiérarchie partiel des Exception en Java:
  * Object
- * ├── Throwable
- *    └── Exception
- * │##     ├── RuntimeException (N'ont pas besoin d'être dans des blocs try/catch)
- * │       │   ├── ArithmeticException
- * │       │   ├── IllegalArgumentException
- * │       │   │   └── NumberFormatException
- * │       │   ├── NullPointerException
- * │       │   └── IndexOutOfBoundsException
- * │       │       └── ArrayIndexOutOfBoundsException
- * │       └── IOException
- * │           └── FileNotFoundException
- * └── Error
+ * └── Throwable
+ *     ├── Exception
+ *     │   ├── RuntimeException (N'ont pas besoin d'être dans des blocs try/catch)
+ *     │   │   ├── ArithmeticException
+ *     │   │   ├── IllegalArgumentException
+ *     │   │   │   └── NumberFormatException
+ *     │   │   ├── NullPointerException
+ *     │   │   └── IndexOutOfBoundsException
+ *     │   │       └── ArrayIndexOutOfBoundsException
+ *     │   └── IOException
+ *     │       └── FileNotFoundException
+ *     └── Error
+ *
  * Les exceptions héritant de la classe RuntimeException n'ont pas besoin d'être détectées impérativement par des blocs try/catch.
  */
 
