@@ -3,7 +3,7 @@ package exceptions;
 import Utilitaire.Util;
 
 /**
- * La hiérarchie partiel des Exception en Java:
+ * La hiérarchie partielle des Exception en Java:
  * Object
  * └── Throwable
  *     ├── Exception

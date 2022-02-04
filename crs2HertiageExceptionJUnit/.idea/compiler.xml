@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="crs2HertiageException" />
+        <module name="crs2HertiageExceptionJUnit" />
       </profile>
     </annotationProcessing>
   </component>

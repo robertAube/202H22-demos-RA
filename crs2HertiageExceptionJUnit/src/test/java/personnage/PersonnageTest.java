@@ -23,6 +23,5 @@ class PersonnageTest {
         p.setPointsDeVie(20);
 
         assertEquals(20, p.getPointsDeVie());
-
     }
 }
