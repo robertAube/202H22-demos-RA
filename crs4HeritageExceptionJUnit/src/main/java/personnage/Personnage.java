@@ -14,6 +14,8 @@ public abstract class Personnage {
         setPointsDeVie(getPointsDeVie() + nbPts);
     }
 
+    public abstract void saluer() ;
+
     public static boolean estPointDeVieValide(int pointsDeVie) {
         if (!(0 <= pointsDeVie && pointsDeVie <= 100))
             throw new IllegalArgumentException("Point de vie invalide " + pointsDeVie);

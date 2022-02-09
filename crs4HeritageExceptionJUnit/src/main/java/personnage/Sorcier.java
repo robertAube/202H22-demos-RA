@@ -8,6 +8,11 @@ public class Sorcier extends Personnage {
         System.out.println("Je suis un nouveau Sorcier");
     }
 
+    @Override
+    public void saluer() {
+        System.out.println("Salut!!!");
+    }
+
     public void jeterUnSort() {
         System.out.println("Jeter un sort");
     }

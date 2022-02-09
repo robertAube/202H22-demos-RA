@@ -9,6 +9,11 @@ public class Guerrier extends Personnage {
     }
 
     @Override
+    public void saluer() {
+        System.out.println("hug!");
+    }
+
+    @Override
     public String toString() {
         return "toString de Guerrier - " +
                 super.toString();
