@@ -1,11 +1,13 @@
 package comparable;
 
+import java.util.Locale;
+
 /**
  * Illustration de compareTo
  *
  * @author Robert Aubé
  */
-public class Personne  {
+public class Personne implements Comparable {
     private String prenom, nom;
 
     public Personne(String prenom, String nom) throws NullPointerException {
@@ -34,5 +36,46 @@ public class Personne  {
     public String toString() {
         return prenom + " " + nom;
     }
+
+
+    @Override
+    public int compareTo(Object o) {
+        int iCompare = 0;
+        String sCourant = this.nom + this.prenom;
+        String sParam = ((Personne)o).nom + ((Personne)o).prenom;
+
+        iCompare = sCourant.compareToIgnoreCase(sParam);
+        return iCompare;
+    }
+
+
+    /**
+     * Compares this object with the specified object for order.  Returns a
+     * negative integer, zero, or a positive integer as this object is less
+     * than, equal to, or greater than the specified object.
+     *
+     *
+     * @param o the object to be compared.
+     * @return a negative integer, zero, or a positive integer as this object
+     * is less than, equal to, or greater than the specified object.
+     * @throws NullPointerException if the specified object is null
+     * @throws ClassCastException   if the specified object's type prevents it
+     *                              from being compared to this object.
+     */
+//    @Override
+//    public int compareTo(Object o) {
+//        String sCourant = this.nom + this.prenom;
+//        String sParam = ((Personne)o).nom + ((Personne)o).prenom;
+//
+//        int iCompare = 0;
+//
+//        if (sCourant.length() < sParam.length())
+//            iCompare = -1;
+//        else if (sCourant.length() > sCourant.length())
+//                    iCompare = 1;
+//
+//        return iCompare;
+//    }
+
 
 }
