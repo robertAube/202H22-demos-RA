@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c319fe5-e96d-45e5-8d08-a38868b42156" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/main/java/exceptions/Exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/main/java/exceptions/MonException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/main/java/personnage/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/main/java/personnage/Guerrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/main/java/personnage/Personnage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/main/java/personnage/Sorcier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/.css/coverage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/.css/highlight-idea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/.img/arrowDown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/.img/arrowUp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/.js/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/sources/source-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/sources/source-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/sources/source-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/Coverage/ns-1/sources/source-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/src/test/java/personnage/PersonnageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/target/classes/exceptions/Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/target/classes/exceptions/MonException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/target/classes/personnage/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/target/classes/personnage/Guerrier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/target/classes/personnage/Personnage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/target/classes/personnage/Sorcier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs2HertiageException/target/test-classes/personnage/PersonnageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crs3Exception/src/main/java/exceptions/DemoExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crs3Exception/src/main/java/exceptions/DemoExceptions.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24d73FNFGFaAEzki2uZKy1VdLjU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c319fe5-e96d-45e5-8d08-a38868b42156" name="Changes" comment="" />
+      <created>1643948409321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643948409321</updated>
+      <workItem from="1643948411072" duration="145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
