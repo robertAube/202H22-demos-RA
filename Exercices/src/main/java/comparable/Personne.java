@@ -7,7 +7,7 @@ import java.util.Locale;
  *
  * @author Robert Aubé
  */
-public class Personne implements Comparable {
+public class Personne implements Comparable<Personne> { //<>
     private String prenom, nom;
 
     public Personne(String prenom, String nom) throws NullPointerException {
@@ -38,11 +38,22 @@ public class Personne implements Comparable {
     }
 
 
+//    @Override
+//    public int compareTo(Object o) {
+//        int iCompare = 0;
+//        String sCourant = this.nom + this.prenom;
+//        String sParam = ((Personne)o).nom + ((Personne)o).prenom;
+//
+//        iCompare = sCourant.compareToIgnoreCase(sParam);
+//        return iCompare;
+//    }
+
+
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(Personne personne) {
         int iCompare = 0;
         String sCourant = this.nom + this.prenom;
-        String sParam = ((Personne)o).nom + ((Personne)o).prenom;
+        String sParam =  personne.nom + personne.prenom;
 
         iCompare = sCourant.compareToIgnoreCase(sParam);
         return iCompare;
