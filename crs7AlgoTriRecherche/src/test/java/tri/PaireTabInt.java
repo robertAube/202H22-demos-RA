@@ -2,9 +2,6 @@ package tri;
 
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 public class PaireTabInt {
     private int [] tab1;
     private int [] tab2;
@@ -22,13 +19,14 @@ public class PaireTabInt {
         return tab2;
     }
 
+    public boolean memeLongueur() {
+        return (tab1.length == tab2.length);
+    }
+
     public boolean memeTableau() {
         return (tab1 == tab2);
     }
 
-    public boolean memeLongueur() {
-        return (tab1.length == tab2.length);
-    }
     public boolean sontDesTableauxEgaux() {
         boolean estPareil = true;
 

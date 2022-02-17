@@ -33,13 +33,12 @@ public class AlgoTriObjetApp {
         System.out.println("Avant le tri par insertion");
         System.out.println(Arrays.toString(tab));
 
-        //trie un tableau en utilisant le tri par insertion
-        AlgoTriObjet.triSelection(tab);
+        //trie un tableau en utilisant le tri par sélection
+       // AlgoTriObjet.triSelection(tab);
 
         System.out.println("Apres le tri par insertion");
         System.out.println(Arrays.toString(tab));
     }
-
 
     public static void main(String[] args) {
         new AlgoTriObjetApp();

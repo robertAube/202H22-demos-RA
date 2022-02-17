@@ -29,7 +29,7 @@ public class AlgoTriIntApp {
         System.out.println("Avant le tri par insertion");
         System.out.println(Arrays.toString(tab));
 
-        //trie un tableau en utilisant le tri par insertion
+        //trie un tableau en utilisant le tri par sélection
         AlgoTriInt.triSelection(tab);
 
         System.out.println("Apres le tri par insertion");

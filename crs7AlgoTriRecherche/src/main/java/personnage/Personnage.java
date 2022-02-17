@@ -1,7 +1,7 @@
 package personnage;
 
 //Une classe abstraite ne peut pas être instancier
-public abstract class Personnage implements Comparable<Personnage> {
+public abstract class Personnage {
     private String nom;
     private int pointsDeVie;
 
@@ -45,11 +45,6 @@ public abstract class Personnage implements Comparable<Personnage> {
     public void setPointsDeVie(int pointsDeVie) {
         if (estPointDeVieValide(pointsDeVie))
             this.pointsDeVie = pointsDeVie;
-    }
-
-    @Override
-    public int compareTo(Personnage personnage) {
-        return this.nom.compareToIgnoreCase(personnage.getNom());
     }
 
     @Override
