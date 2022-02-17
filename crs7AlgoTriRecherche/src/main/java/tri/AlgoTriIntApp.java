@@ -2,8 +2,8 @@ package tri;
 
 import java.util.Arrays;
 
-public class AlgoTriTest {
-    public AlgoTriTest() {
+public class AlgoTriIntApp {
+    public AlgoTriIntApp() {
  //       testerGetMinIndice();
         testerTriSelection();
     }
@@ -14,11 +14,11 @@ public class AlgoTriTest {
 
         System.out.println("tableau : ");
         System.out.println(Arrays.toString(tab));
-        System.out.println("Le minimum est " + AlgoTri.trouverIMin(tab));
+        System.out.println("Le minimum est " + AlgoTriInt.trouverIMin(tab));
 
         System.out.println("tableau : ");
         System.out.println(Arrays.toString(tab2));
-        System.out.println("Le minimum est " + AlgoTri.trouverIMin(tab2));
+        System.out.println("Le minimum est " + AlgoTriInt.trouverIMin(tab2));
 
     }
 
@@ -30,13 +30,13 @@ public class AlgoTriTest {
         System.out.println(Arrays.toString(tab));
 
         //trie un tableau en utilisant le tri par insertion
-        AlgoTri.triSelection(tab);
+        AlgoTriInt.triSelection(tab);
 
         System.out.println("Apres le tri par insertion");
         System.out.println(Arrays.toString(tab));
     }
 
     public static void main(String[] args) {
-        new AlgoTriTest();
+        new AlgoTriIntApp();
     }
 }
