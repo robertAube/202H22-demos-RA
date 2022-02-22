@@ -1,5 +1,7 @@
 package demoEnum;
 
+import java.util.Locale;
+
 public enum Direction {
     SUD (180), EST(90), NORD(0), OUEST(270);
 
@@ -11,5 +13,9 @@ public enum Direction {
 
     public int getDegre() {
         return degre;
+    }
+
+    public String getNom () {
+        return name().toLowerCase(Locale.ROOT);
     }
 }

@@ -3,11 +3,11 @@ package recherche;
 public class AlgoRecherche {
 
     /**
-     * Permet de faire une recherche séquentielle dans un vecteur d'entiers
+     * Permet de faire une recherche séquentielle dans un tableau d'entiers
      *
      * @param tab       un tableau d'entiers
      * @param valToFind l'entier recherché dans le tableau
-     * @return indice de l'entier trouvé dans le vecteur
+     * @return indice de l'entier trouvé dans le tableau
      * ou -1 si l'entier n'est pas trouvé
      */
     public static int rechercheDichotomique(int[] tab, int valToFind) {
@@ -38,6 +38,48 @@ public class AlgoRecherche {
         }
 
         System.out.println(iInf + " " + iSup + " " + iMilieu);
+
+        return idxRetour;
+    }
+
+
+    /**
+     * Permet de faire une recherche séquentielle dans un tableau d'entiers
+     *
+     * @param tab       un tableau d'entiers
+     * @param valToFind l'entier recherché dans le tableau
+     * @return indice de l'entier trouvé dans le tableau
+     * ou -1 si l'entier n'est pas trouvé
+     */
+    public static int rechercheSequentielle(int[] tab, int valToFind) {
+        int idxRetour = -1;
+        for (int i = 0; i < tab.length && idxRetour == -1; i++) {
+            if (tab[i] == valToFind) {
+                idxRetour = i;
+            }
+        }
+
+        return idxRetour;
+    }
+
+    /**
+     * Permet de faire une recherche séquentielle dans un tableau d'entiers
+     *
+     * @param tab       un tableau d'entiers
+     * @param valToFind l'entier recherché dans le tableau
+     * @return indice de l'entier trouvé dans le tableau
+     * ou -1 si l'entier n'est pas trouvé
+     */
+    public static int rechercheSequentielleDsTabTrie(int[] tab, int valToFind) {
+        int idxRetour = -1;
+        boolean valToFindEstDepasse = false;
+        for (int i = 0; i < tab.length && idxRetour == -1 && !valToFindEstDepasse; i++) {
+            if (tab[i] == valToFind) {
+                idxRetour = i;
+            } else if (tab[i] > valToFind) {
+                valToFindEstDepasse = true;
+            }
+        }
 
         return idxRetour;
     }
