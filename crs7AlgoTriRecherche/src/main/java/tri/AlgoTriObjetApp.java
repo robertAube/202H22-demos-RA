@@ -10,6 +10,7 @@ public class AlgoTriObjetApp {
     public AlgoTriObjetApp() {
         //       testerGetMinIndice();
         testerTriSelection();
+        testerTriSelectionClasseEnveloppeInteger();
     }
 
     private void testerGetMinIndice() {
@@ -34,7 +35,21 @@ public class AlgoTriObjetApp {
         System.out.println(Arrays.toString(tab));
 
         //trie un tableau en utilisant le tri par sélection
-       // AlgoTriObjet.triSelection(tab);
+        AlgoTriObjet.triSelection(tab);
+
+        System.out.println("Apres le tri par insertion");
+        System.out.println(Arrays.toString(tab));
+    }
+
+    private void testerTriSelectionClasseEnveloppeInteger() {
+        Integer[] tab = {new Integer(1), new Integer(12), new Integer(4), new Integer(5), new Integer(93), new Integer(21)};
+
+
+        System.out.println("Avant le tri par insertion");
+        System.out.println(Arrays.toString(tab));
+
+        //trie un tableau en utilisant le tri par insertion
+        AlgoTriObjet.triSelection(tab);
 
         System.out.println("Apres le tri par insertion");
         System.out.println(Arrays.toString(tab));

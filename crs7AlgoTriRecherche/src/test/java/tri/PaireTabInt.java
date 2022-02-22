@@ -38,6 +38,8 @@ public class PaireTabInt {
                     }
                 }
             }
+            else
+                estPareil = false;
         }
 
         return estPareil;

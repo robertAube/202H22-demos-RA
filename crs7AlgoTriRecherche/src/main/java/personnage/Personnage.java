@@ -1,7 +1,9 @@
 package personnage;
 
+import java.util.Locale;
+
 //Une classe abstraite ne peut pas être instancier
-public abstract class Personnage {
+public abstract class Personnage implements Comparable<Personnage> {
     private String nom;
     private int pointsDeVie;
 
@@ -9,6 +11,8 @@ public abstract class Personnage {
         this.nom = nom;
         this.pointsDeVie = 100;
     }
+
+
 
     public void ajouterPtsVie(int nbPts) {
         setPointsDeVie(getPointsDeVie() + nbPts);
@@ -60,5 +64,11 @@ public abstract class Personnage {
     @Override
     public int hashCode() {
         return nom != null ? nom.hashCode() : 0;
+    }
+
+
+    @Override
+    public int compareTo(Personnage p) {
+        return nom.compareTo((p.getNom().toLowerCase(Locale.ROOT)));
     }
 }
