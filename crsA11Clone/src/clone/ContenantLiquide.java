@@ -1,15 +1,15 @@
 package clone;
 
 public class ContenantLiquide {
-    private String nom; //PISSETTE, BECHER, ERLENMEYER, EPROUVETTE, COMPTE GOUTTE, PIPETTE (verrerie en chimie)
+    private String nom; //BECHER, ERLENMEYER, EPROUVETTE, COMPTE GOUTTE, PIPETTE... (verrerie en chimie)
     private Liquide liquide;
-    private int qteMaxMl;
-    private int qte;
+    private int capaciteMl; //capacité du contenant en millilitre
+    private int qte; //quantité de liquide dans le contenant
 
-    public ContenantLiquide(String nom, Liquide liquide, int qteMaxMl, int qte) {
+    public ContenantLiquide(String nom, Liquide liquide, int capaciteMl, int qte) {
         this.nom = nom;
         this.liquide = liquide;
-        this.qteMaxMl = qteMaxMl;
+        this.capaciteMl = capaciteMl;
         this.qte = qte;
     }
 
@@ -25,7 +25,7 @@ public class ContenantLiquide {
     public String toString() {
         return nom + " - {" +
                 liquide +
-                ", qteMaxMl=" + qteMaxMl +
+                ", capacité=" + capaciteMl +
                 ", qte=" + qte +
                 '}';
     }

@@ -1,6 +1,6 @@
 package clone;
 
-public class Liquide implements Cloneable {
+public class Liquide {
     private String nom; //lait (1030), eau (1000), essence (750), Mercure(13600)
     private int masseVolumique_KgParM3;
 

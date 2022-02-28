@@ -13,7 +13,7 @@ public class AppCloneContenant {
         System.out.println(pipetteDEau);
 
         //Coloner la pipette d'eau
-        ContenantLiquide pipetteDeLait = null;
+        ContenantLiquide pipetteDeLait = null; //remplacer null par la bonne instruction pour cloner.
 
         //Modifier la pipette d'eau pour avoir une pipette de lait
         pipetteDeLait.getLiquide().setNom("Lait");
