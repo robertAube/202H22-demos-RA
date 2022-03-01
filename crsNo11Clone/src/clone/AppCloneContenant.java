@@ -7,18 +7,19 @@ public class AppCloneContenant {
         clonerContenant();
     }
 
-    private void clonerContenant() {
+    private void clonerContenant()  {
         ContenantLiquide pipetteDEau = new ContenantLiquide("Pipette", eau, 250, 200);
 
         System.out.println(pipetteDEau);
 
         //Coloner la pipette d'eau
-        ContenantLiquide pipetteDeLait = null; //remplacer null par la bonne instruction pour cloner.
+        ContenantLiquide pipetteDeLait = pipetteDEau.clone(); //remplacer null par la bonne instruction pour cloner.
 
         //Modifier la pipette d'eau pour avoir une pipette de lait
         pipetteDeLait.getLiquide().setNom("Lait");
         pipetteDeLait.getLiquide().setMasseVolumique_KgParM3(1030);
 
+        pipetteDeLait.setNom("Becher");
         System.out.println(pipetteDeLait);
         System.out.println(pipetteDEau);
 //Résultat attendu :
