@@ -4,13 +4,15 @@ public class AppFile {
     private IFile file;
 
     public AppFile() {
-        file = null;
-        essayerFile(3);
+        file = new File();
+        essayerFile(1);
     }
 
     private void essayerFile(int nbFois) {
 
-        for (int j = 0; j < nbFois; j++) {
+        for (int nbEssai = 0; nbEssai < nbFois; nbEssai++) {
+            System.out.println("essai #" + nbEssai+1);
+
             // file vide
             enfiler(5);
             defiler(5);
