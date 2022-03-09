@@ -9,7 +9,7 @@ public interface IJeuMemoire
 	public static final int NIVEAU_MAX = 6;
 
 	/**
-	 * L'intelligence du jeu. Génère un tableau de coordonnées (des objets <b>Point(colonne, ligne)</b>
+	 * L'intelligence du jeu. Génère un tableau de coordonnées (des objets <b>Point(colonne, ligne)</b>)
 	 * au hasard. Les points générés doivent être valides dans la grille de jeu.
 	 * Le nombre de points générés est en relation avec le niveau courant du jeu.
 	 * Il obéit à la règle suivante:
