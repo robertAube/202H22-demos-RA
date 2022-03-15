@@ -9,6 +9,20 @@ public class File implements IFile{
         fin = null;
     }
 
+    @Override
+    public String toString() {
+        String str = "";
+        Noeud courant = debut;
+
+        while (courant != null ){
+            str += courant.getData().toString();
+            courant = courant.getSuivant();
+            str += courant == null ? "" : ", ";
+        }
+
+        return str;
+    }
+
     /**
      * Mettre un élément à la fin de la file
      *
