@@ -8,6 +8,14 @@ public class Sorcier extends Personnage {
         System.out.println("Je suis un nouveau Sorcier");
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public void saluer() {
         System.out.println("Salut!!!");
