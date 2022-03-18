@@ -20,4 +20,18 @@ public class ExListe {
 
         liste = new LinkedList<Integer>(vecteur);
     }
+
+    @Override
+    public String toString() {
+        return "ExListe{" +
+                "vecteur=" + vecteur +
+                ", liste=" + liste +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        ExListe exemple = new ExListe();
+
+        System.out.println(exemple);
+    }
 }

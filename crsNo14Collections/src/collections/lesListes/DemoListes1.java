@@ -22,7 +22,7 @@ public class DemoListes1 {
         liste = new LinkedList<Integer>(vecteur);
         System.out.println("On a pris les éléments du vecteur et on a fait une LinkedList : " + liste);
 
-        LinkedList linkedList = (LinkedList) liste;
+        LinkedList linkedList = (LinkedList) liste;  //on doit caster liste pour avoir les services de LinkedList
         System.out.println("On a getLast() dans la LinkedList : " + linkedList.getLast());
 
         linkedList.removeLast();
@@ -35,10 +35,10 @@ public class DemoListes1 {
         System.out.println("On a clear() la LinkedList : " + liste);
     }
 
-    private void peupler(List<Integer> vecteur, int valueToAdd) {
-        vecteur.add(10 + valueToAdd);
-        vecteur.add(20 + valueToAdd);
-        vecteur.add(30 + valueToAdd);
+    private void peupler(List<Integer> liste, int valueToAdd) {
+        liste.add(10 + valueToAdd);
+        liste.add(20 + valueToAdd);
+        liste.add(30 + valueToAdd);
     }
 
     @Override
