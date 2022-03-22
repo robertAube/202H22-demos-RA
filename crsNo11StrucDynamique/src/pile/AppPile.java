@@ -9,11 +9,11 @@ public class AppPile {
         int tab[] = {1, 2, 3};
         IPile p = new PileArrayList();
 
-        for (int valeur: tab) {
+        for (int valeur : tab) {
             p.empiler(valeur);
         }
 
-        for (int i = tab.length -1 ; i >= 0; i--) {
+        for (int i = tab.length - 1; i >= 0; i--) {
             System.out.println(p.depiler() + " = " + tab[i]);
         }
     }
@@ -21,15 +21,32 @@ public class AppPile {
 
     private void testPileDynamique() {
         int tab[] = {1, 2, 3};
-        IPile p = new PileDynamique();
+        IPile p = new PileArrayList();
 
-        for (int valeur: tab) {
+        System.out.println(getPileSize(p));
+        for (int valeur : tab) {
             p.empiler(valeur);
         }
+        System.out.println(getPileSize(p));
 
-        for (int i = tab.length -1 ; i >= 0; i--) {
+        for (int i = tab.length - 1; i >= 0; i--) {
             System.out.println(p.depiler() + " = " + tab[i]);
         }
+        System.out.println(getPileSize(p));
+    }
+
+    public static int getPileSize(IPile pile) {
+        int nbElement = 0;
+        IPile pileTempo = new PileArrayList();
+        while (!pile.estVide()) {
+            pileTempo.empiler(pile.depiler());
+            nbElement++;
+        }
+        while (!pileTempo.estVide()) {
+            pile.empiler(pileTempo.depiler());
+        }
+
+        return nbElement;
     }
 
     public static void main(String[] args) {
