@@ -1,0 +1,3 @@
+Carre{couleur='Rouge', nom='carré', cote=4}
+Carre{couleur='Vert', nom='carré', cote=6}
+Carre{couleur='Bleu', nom='carré', cote=8}

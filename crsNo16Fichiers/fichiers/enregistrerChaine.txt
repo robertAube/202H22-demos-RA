@@ -1,0 +1,10 @@
+1 a pour carre 1
+2 a pour carre 4
+3 a pour carre 9
+4 a pour carre 16
+5 a pour carre 25
+6 a pour carre 36
+7 a pour carre 49
+8 a pour carre 64
+9 a pour carre 81
+10 a pour carre 100
