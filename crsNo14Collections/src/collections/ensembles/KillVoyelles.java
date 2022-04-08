@@ -39,3 +39,7 @@ public class KillVoyelles {
     }
 }
 
+/**
+ * lettres presentes : [ , a, c, d, e, i, m, n, o, r, s, t, u]
+ * lettres sans les voyelles : [ , c, d, m, n, r, s, t]
+ */

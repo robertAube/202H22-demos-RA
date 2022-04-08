@@ -61,3 +61,12 @@ public class DemoSet {
         new DemoSet();
     }
 }
+/**
+ * Les ajoutés = 2 5 6 8 9
+ * Les déjà présents = 2 5 5
+ * ensemble = [2, 5, 6, 8, 9]
+ * On a supprimé 5
+ * ensemble = [2, 6, 8, 9]
+ * On ne trouve pas 5
+ * ensemble = [2, 6, 8, 9]
+ */
