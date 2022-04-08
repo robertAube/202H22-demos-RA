@@ -18,7 +18,8 @@ public class DemoSet {
 
         // On supprime un eventuel objet de valeur Integer(5)
         cinq = new Integer(5);
-        enleve = ensemble.remove(cinq);
+
+        enleve = ensemble.remove(5);
 
         if (enleve)
             System.out.println("On a supprimé " + cinq);

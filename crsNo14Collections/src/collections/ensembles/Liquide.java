@@ -21,22 +21,6 @@ public class Liquide implements Comparable<Liquide> //Type générique
         return (nom != null);
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//
-//        Liquide liquide = (Liquide) o;
-//
-//        return nom.equals(liquide.nom);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return nom != null ? nom.hashCode() : 0;
-//    }
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -44,26 +28,12 @@ public class Liquide implements Comparable<Liquide> //Type générique
 
         Liquide liquide = (Liquide) o;
 
-        if (masseVolumique_KgParM3 != liquide.masseVolumique_KgParM3) return false;
         return nom.equals(liquide.nom);
     }
 
     @Override
     public int hashCode() {
-        int result = nom.hashCode();
-        result = 31 * result + masseVolumique_KgParM3;
-        return result;
-    }
-
-    @Override
-    public int compareTo(Liquide liquide) {
-        int comparaison;
-        comparaison = this.nom.compareTo(liquide.nom) ;
-
-        comparaison = comparaison == 0 ? this.masseVolumique_KgParM3 - liquide.masseVolumique_KgParM3 : comparaison;
-//            comparaison = this.masseVolumique_KgParM3 - liquide.masseVolumique_KgParM3;
-
-        return comparaison;
+        return nom.hashCode();
     }
 
     @Override
@@ -71,6 +41,11 @@ public class Liquide implements Comparable<Liquide> //Type générique
         return nom
                 + " - { masseVolumique= " + masseVolumique_KgParM3 + " Kg/M3"
                 + ", hashCode= " + this.hashCode() + " (" + String.format("0x%08X", this.hashCode())+ ") }";
+    }
+
+    @Override
+    public int compareTo(Liquide liquide) {
+        return liquide.nom.compareTo(liquide.nom);
     }
 
     public static void main(String[] args) {
@@ -86,6 +61,7 @@ public class Liquide implements Comparable<Liquide> //Type générique
             System.out.println(liquide);
         }
     }
+
 }
 
 /**
