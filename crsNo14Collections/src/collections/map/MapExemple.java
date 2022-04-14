@@ -34,7 +34,6 @@ public class MapExemple {
         while (iter.hasNext()) {
             s += (iter.next() + " ");
         }
-
         return s;
     }
 
