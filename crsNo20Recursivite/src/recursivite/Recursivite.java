@@ -27,13 +27,22 @@ public class Recursivite {
      *
      * @param tab          le tableau de recherche
      * @param valRecherche l'entier à trouver
-     * @return intl'indice de l'entier trouvé.
+     * @return l'indice de l'entier trouvé.
      */
     public static int trouverVal(int[] tab, int valRecherche) {
         int iTrouve = 0;
         iTrouve = rechercheDichotomique(tab, valRecherche, 0, tab.length - 1);
         return iTrouve;
     }
+    /**
+     * La fonction récursive de la précédente. Utilise la recherche dichotomique.
+     *
+     * @param tab un tableau d'entiers triés
+     * @param valRecherche   l'entier à trouver
+     * @param iDeb l'indice de début de l'intervale de recherche
+     * @param iFin l'indice de fin de l'intervale de recherche
+     * @return l'indice de l'entier trouvé ou -1 si pas trouvé
+     */
 
     public static int rechercheDichotomique(int[] tab, int valRecherche, int iDeb, int iFin) {
         int iTrouve;
