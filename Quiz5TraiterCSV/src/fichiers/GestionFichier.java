@@ -34,7 +34,6 @@ public class GestionFichier {
             for (String ligne : lines) {
                 sortie.println(ligne);
             }
-
             sortie.close();
         } catch (IOException e) {
             System.out.println("Erreur de création de fichier");

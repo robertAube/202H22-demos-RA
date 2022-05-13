@@ -18,6 +18,5 @@ public class ListeEtudiantTest {
 
     public static void main(String[] args) {
         new ListeEtudiantTest();
-
     }
 }
